@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="lightgray">#F2F2F2</color>
+    <color name="link_color">#48A7DA</color>
+    <color name="listitem_color">#E9E9E9</color>
+
+</resources>

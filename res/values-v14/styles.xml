@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DistStation" parent="Theme.BaseDistStation">
+        <item name="android:alertDialogTheme">@style/HoloLightAlertDialog</item>
+    </style>
+</resources>

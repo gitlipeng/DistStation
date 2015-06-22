@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/listitem_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="某某小区110KV配电柜" />
+
+    <TextView
+        android:id="@+id/lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/station"
+        android:layout_marginRight="30dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="某某设备锁" />
+
+    <CheckBox
+        android:id="@+id/checkdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:button="@drawable/checkbox_normal"
+        android:clickable="false" />
+
+</RelativeLayout>
